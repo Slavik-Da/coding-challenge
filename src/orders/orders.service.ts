@@ -3,7 +3,7 @@ import { getJSON } from '../data-source/getJSONFromCSV';
 
 @Injectable()
 export class OrdersService {
-  async getAllOrders() {
+  getAllOrders() {
     return getJSON();
   }
 }
