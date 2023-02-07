@@ -7,6 +7,6 @@ export class OrdersController {
 
   @Get()
   async getAll() {
-    return await this.ordersService.getAllOrders();
+    return this.ordersService.getAllOrders();
   }
 }
