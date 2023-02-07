@@ -6,7 +6,7 @@ export class OrdersController {
   constructor(private readonly ordersService: OrdersService) {}
 
   @Get()
-  async getAll() {
+  getAll() {
     return this.ordersService.getAllOrders();
   }
 }
